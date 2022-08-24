@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@800&family=Space+Mono&display=swap');
+
+h2{
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 200px;
+    width: 100%;
+    float: left;
+}
+
+#mainImg{
+    width: 500px;
+}
+
+#mainImg img {
+    width: 100%;
+}
+
+#mainContent{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#text{
+    font-family: 'Space Mono', monospace;
+    margin-left: 90px;
+    width: 600px;
+}
+
+#text h1{
+    font-size: 64px;
+}
+
+#back{
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    margin-top: 15px;
+}
+
+#text p{
+    width: 350px;
+    font-size: 20px;
+}
+
+#back{
+    text-transform: uppercase;
+}
+
+#footer{
+    display: inline-block;
+    color: gray;
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 630px) {
+    #text h1{
+        font-size: 54px;
+    }
+
+    #mainContent{
+        width: 95%;
+    }
+
+    #mainImg{
+        width: 100%;
+    }
+
+    #text{
+        margin: 0;
+    }
+}
